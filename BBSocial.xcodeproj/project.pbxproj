@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49556C421ED3E146006AB2A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C411ED3E146006AB2A6 /* main.m */; };
+		49556C451ED3E146006AB2A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C441ED3E146006AB2A6 /* AppDelegate.m */; };
+		49556C481ED3E146006AB2A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C471ED3E146006AB2A6 /* ViewController.m */; };
+		49556C4D1ED3E146006AB2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49556C4C1ED3E146006AB2A6 /* Assets.xcassets */; };
+		49556C501ED3E146006AB2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49556C4E1ED3E146006AB2A6 /* LaunchScreen.storyboard */; };
+		49556C661ED3E208006AB2A6 /* BBShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C5A1ED3E208006AB2A6 /* BBShare.m */; };
+		49556C671ED3E208006AB2A6 /* BBShareContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C5C1ED3E208006AB2A6 /* BBShareContent.m */; };
+		49556C6A1ED3E208006AB2A6 /* BBShareMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C621ED3E208006AB2A6 /* BBShareMenuItem.m */; };
+		49556C6B1ED3E208006AB2A6 /* BBOtherMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C641ED3E208006AB2A6 /* BBOtherMenuItem.m */; };
+		49556C751ED3E21B006AB2A6 /* BBShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C6E1ED3E21B006AB2A6 /* BBShareButton.m */; };
+		49556C761ED3E21B006AB2A6 /* BBShareUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C701ED3E21B006AB2A6 /* BBShareUIConfig.m */; };
+		49556C771ED3E21B006AB2A6 /* BBShareUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C721ED3E21B006AB2A6 /* BBShareUIManager.m */; };
+		49556C781ED3E21B006AB2A6 /* BBShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C741ED3E21B006AB2A6 /* BBShareView.m */; };
+		49556C7B1ED3E2CF006AB2A6 /* BBLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C7A1ED3E2CF006AB2A6 /* BBLogin.m */; };
+		49556C841ED3E9D8006AB2A6 /* BBSocialPlatformConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C831ED3E9D8006AB2A6 /* BBSocialPlatformConfig.m */; };
+		49556C871ED3E9FF006AB2A6 /* BBSocialResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C861ED3E9FF006AB2A6 /* BBSocialResponse.m */; };
+		49556C8A1ED404C6006AB2A6 /* BBSocialCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C891ED404C6006AB2A6 /* BBSocialCommon.m */; };
+		49556C8D1ED4075F006AB2A6 /* BBSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 49556C8C1ED4075F006AB2A6 /* BBSocial.m */; };
+		F28A3B3B6269771DB5269636 /* libPods-BBSocial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A575585FCB9A4F405A8CE880 /* libPods-BBSocial.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34BDD4373F72F47472980120 /* Pods-BBSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSocial/Pods-BBSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		417814177FF1A5DCE8D48625 /* Pods-BBSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSocial/Pods-BBSocial.release.xcconfig"; sourceTree = "<group>"; };
+		49556C3D1ED3E146006AB2A6 /* BBSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49556C411ED3E146006AB2A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49556C431ED3E146006AB2A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49556C441ED3E146006AB2A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49556C461ED3E146006AB2A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49556C471ED3E146006AB2A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49556C4C1ED3E146006AB2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49556C4F1ED3E146006AB2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49556C511ED3E146006AB2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49556C591ED3E208006AB2A6 /* BBShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShare.h; sourceTree = "<group>"; };
+		49556C5A1ED3E208006AB2A6 /* BBShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShare.m; sourceTree = "<group>"; };
+		49556C5B1ED3E208006AB2A6 /* BBShareContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareContent.h; sourceTree = "<group>"; };
+		49556C5C1ED3E208006AB2A6 /* BBShareContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareContent.m; sourceTree = "<group>"; };
+		49556C611ED3E208006AB2A6 /* BBShareMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareMenuItem.h; sourceTree = "<group>"; };
+		49556C621ED3E208006AB2A6 /* BBShareMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareMenuItem.m; sourceTree = "<group>"; };
+		49556C631ED3E208006AB2A6 /* BBOtherMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOtherMenuItem.h; sourceTree = "<group>"; };
+		49556C641ED3E208006AB2A6 /* BBOtherMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOtherMenuItem.m; sourceTree = "<group>"; };
+		49556C651ED3E208006AB2A6 /* BBShareMenuItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareMenuItemProtocol.h; sourceTree = "<group>"; };
+		49556C6D1ED3E21B006AB2A6 /* BBShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareButton.h; sourceTree = "<group>"; };
+		49556C6E1ED3E21B006AB2A6 /* BBShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareButton.m; sourceTree = "<group>"; };
+		49556C6F1ED3E21B006AB2A6 /* BBShareUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareUIConfig.h; sourceTree = "<group>"; };
+		49556C701ED3E21B006AB2A6 /* BBShareUIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareUIConfig.m; sourceTree = "<group>"; };
+		49556C711ED3E21B006AB2A6 /* BBShareUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareUIManager.h; sourceTree = "<group>"; };
+		49556C721ED3E21B006AB2A6 /* BBShareUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareUIManager.m; sourceTree = "<group>"; };
+		49556C731ED3E21B006AB2A6 /* BBShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBShareView.h; sourceTree = "<group>"; };
+		49556C741ED3E21B006AB2A6 /* BBShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBShareView.m; sourceTree = "<group>"; };
+		49556C791ED3E2CF006AB2A6 /* BBLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLogin.h; sourceTree = "<group>"; };
+		49556C7A1ED3E2CF006AB2A6 /* BBLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLogin.m; sourceTree = "<group>"; };
+		49556C821ED3E9D8006AB2A6 /* BBSocialPlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSocialPlatformConfig.h; sourceTree = "<group>"; };
+		49556C831ED3E9D8006AB2A6 /* BBSocialPlatformConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSocialPlatformConfig.m; sourceTree = "<group>"; };
+		49556C851ED3E9FF006AB2A6 /* BBSocialResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSocialResponse.h; sourceTree = "<group>"; };
+		49556C861ED3E9FF006AB2A6 /* BBSocialResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSocialResponse.m; sourceTree = "<group>"; };
+		49556C881ED404C6006AB2A6 /* BBSocialCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSocialCommon.h; sourceTree = "<group>"; };
+		49556C891ED404C6006AB2A6 /* BBSocialCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSocialCommon.m; sourceTree = "<group>"; };
+		49556C8B1ED4075F006AB2A6 /* BBSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSocial.h; sourceTree = "<group>"; };
+		49556C8C1ED4075F006AB2A6 /* BBSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSocial.m; sourceTree = "<group>"; };
+		A575585FCB9A4F405A8CE880 /* libPods-BBSocial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSocial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49556C3A1ED3E146006AB2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A3B3B6269771DB5269636 /* libPods-BBSocial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49556C341ED3E146006AB2A6 = {
+			isa = PBXGroup;
+			children = (
+				49556C3F1ED3E146006AB2A6 /* BBSocial */,
+				49556C3E1ED3E146006AB2A6 /* Products */,
+				94E700813EB01BBB25839017 /* Pods */,
+				DD4327C0BB70AD55BC3FF8D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49556C3E1ED3E146006AB2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49556C3D1ED3E146006AB2A6 /* BBSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49556C3F1ED3E146006AB2A6 /* BBSocial */ = {
+			isa = PBXGroup;
+			children = (
+				49556C431ED3E146006AB2A6 /* AppDelegate.h */,
+				49556C441ED3E146006AB2A6 /* AppDelegate.m */,
+				49556C461ED3E146006AB2A6 /* ViewController.h */,
+				49556C471ED3E146006AB2A6 /* ViewController.m */,
+				49556C8B1ED4075F006AB2A6 /* BBSocial.h */,
+				49556C8C1ED4075F006AB2A6 /* BBSocial.m */,
+				49556C821ED3E9D8006AB2A6 /* BBSocialPlatformConfig.h */,
+				49556C831ED3E9D8006AB2A6 /* BBSocialPlatformConfig.m */,
+				49556C851ED3E9FF006AB2A6 /* BBSocialResponse.h */,
+				49556C861ED3E9FF006AB2A6 /* BBSocialResponse.m */,
+				49556C881ED404C6006AB2A6 /* BBSocialCommon.h */,
+				49556C891ED404C6006AB2A6 /* BBSocialCommon.m */,
+				49556C581ED3E1E9006AB2A6 /* BBLogin */,
+				49556C571ED3E1C2006AB2A6 /* BBShare */,
+				49556C4C1ED3E146006AB2A6 /* Assets.xcassets */,
+				49556C4E1ED3E146006AB2A6 /* LaunchScreen.storyboard */,
+				49556C511ED3E146006AB2A6 /* Info.plist */,
+				49556C401ED3E146006AB2A6 /* Supporting Files */,
+			);
+			path = BBSocial;
+			sourceTree = "<group>";
+		};
+		49556C401ED3E146006AB2A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49556C411ED3E146006AB2A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49556C571ED3E1C2006AB2A6 /* BBShare */ = {
+			isa = PBXGroup;
+			children = (
+				49556C591ED3E208006AB2A6 /* BBShare.h */,
+				49556C5A1ED3E208006AB2A6 /* BBShare.m */,
+				49556C5B1ED3E208006AB2A6 /* BBShareContent.h */,
+				49556C5C1ED3E208006AB2A6 /* BBShareContent.m */,
+				49556C611ED3E208006AB2A6 /* BBShareMenuItem.h */,
+				49556C621ED3E208006AB2A6 /* BBShareMenuItem.m */,
+				49556C631ED3E208006AB2A6 /* BBOtherMenuItem.h */,
+				49556C641ED3E208006AB2A6 /* BBOtherMenuItem.m */,
+				49556C651ED3E208006AB2A6 /* BBShareMenuItemProtocol.h */,
+				49556C6C1ED3E213006AB2A6 /* BBShareUI */,
+			);
+			path = BBShare;
+			sourceTree = "<group>";
+		};
+		49556C581ED3E1E9006AB2A6 /* BBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				49556C791ED3E2CF006AB2A6 /* BBLogin.h */,
+				49556C7A1ED3E2CF006AB2A6 /* BBLogin.m */,
+			);
+			path = BBLogin;
+			sourceTree = "<group>";
+		};
+		49556C6C1ED3E213006AB2A6 /* BBShareUI */ = {
+			isa = PBXGroup;
+			children = (
+				49556C6D1ED3E21B006AB2A6 /* BBShareButton.h */,
+				49556C6E1ED3E21B006AB2A6 /* BBShareButton.m */,
+				49556C6F1ED3E21B006AB2A6 /* BBShareUIConfig.h */,
+				49556C701ED3E21B006AB2A6 /* BBShareUIConfig.m */,
+				49556C711ED3E21B006AB2A6 /* BBShareUIManager.h */,
+				49556C721ED3E21B006AB2A6 /* BBShareUIManager.m */,
+				49556C731ED3E21B006AB2A6 /* BBShareView.h */,
+				49556C741ED3E21B006AB2A6 /* BBShareView.m */,
+			);
+			path = BBShareUI;
+			sourceTree = "<group>";
+		};
+		94E700813EB01BBB25839017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34BDD4373F72F47472980120 /* Pods-BBSocial.debug.xcconfig */,
+				417814177FF1A5DCE8D48625 /* Pods-BBSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD4327C0BB70AD55BC3FF8D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A575585FCB9A4F405A8CE880 /* libPods-BBSocial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49556C3C1ED3E146006AB2A6 /* BBSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49556C541ED3E146006AB2A6 /* Build configuration list for PBXNativeTarget "BBSocial" */;
+			buildPhases = (
+				184767A844CC6FB6E9D71EF6 /* [CP] Check Pods Manifest.lock */,
+				49556C391ED3E146006AB2A6 /* Sources */,
+				49556C3A1ED3E146006AB2A6 /* Frameworks */,
+				49556C3B1ED3E146006AB2A6 /* Resources */,
+				D268E4C1DBA7C6CF1C5F4325 /* [CP] Embed Pods Frameworks */,
+				0D9EB85060CF2A4D9BBBE9FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBSocial;
+			productName = BBSocial;
+			productReference = 49556C3D1ED3E146006AB2A6 /* BBSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49556C351ED3E146006AB2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Babybus;
+				TargetAttributes = {
+					49556C3C1ED3E146006AB2A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AMSTN4PRF9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49556C381ED3E146006AB2A6 /* Build configuration list for PBXProject "BBSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49556C341ED3E146006AB2A6;
+			productRefGroup = 49556C3E1ED3E146006AB2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49556C3C1ED3E146006AB2A6 /* BBSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49556C3B1ED3E146006AB2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49556C501ED3E146006AB2A6 /* LaunchScreen.storyboard in Resources */,
+				49556C4D1ED3E146006AB2A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D9EB85060CF2A4D9BBBE9FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBSocial/Pods-BBSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		184767A844CC6FB6E9D71EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D268E4C1DBA7C6CF1C5F4325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBSocial/Pods-BBSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49556C391ED3E146006AB2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49556C481ED3E146006AB2A6 /* ViewController.m in Sources */,
+				49556C6B1ED3E208006AB2A6 /* BBOtherMenuItem.m in Sources */,
+				49556C451ED3E146006AB2A6 /* AppDelegate.m in Sources */,
+				49556C421ED3E146006AB2A6 /* main.m in Sources */,
+				49556C8D1ED4075F006AB2A6 /* BBSocial.m in Sources */,
+				49556C7B1ED3E2CF006AB2A6 /* BBLogin.m in Sources */,
+				49556C8A1ED404C6006AB2A6 /* BBSocialCommon.m in Sources */,
+				49556C771ED3E21B006AB2A6 /* BBShareUIManager.m in Sources */,
+				49556C751ED3E21B006AB2A6 /* BBShareButton.m in Sources */,
+				49556C671ED3E208006AB2A6 /* BBShareContent.m in Sources */,
+				49556C661ED3E208006AB2A6 /* BBShare.m in Sources */,
+				49556C871ED3E9FF006AB2A6 /* BBSocialResponse.m in Sources */,
+				49556C781ED3E21B006AB2A6 /* BBShareView.m in Sources */,
+				49556C6A1ED3E208006AB2A6 /* BBShareMenuItem.m in Sources */,
+				49556C841ED3E9D8006AB2A6 /* BBSocialPlatformConfig.m in Sources */,
+				49556C761ED3E21B006AB2A6 /* BBShareUIConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49556C4E1ED3E146006AB2A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49556C4F1ED3E146006AB2A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49556C521ED3E146006AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49556C531ED3E146006AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49556C551ED3E146006AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BDD4373F72F47472980120 /* Pods-BBSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AMSTN4PRF9;
+				INFOPLIST_FILE = BBSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyee.babybus.recommandApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49556C561ED3E146006AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417814177FF1A5DCE8D48625 /* Pods-BBSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AMSTN4PRF9;
+				INFOPLIST_FILE = BBSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyee.babybus.recommandApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49556C381ED3E146006AB2A6 /* Build configuration list for PBXProject "BBSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49556C521ED3E146006AB2A6 /* Debug */,
+				49556C531ED3E146006AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49556C541ED3E146006AB2A6 /* Build configuration list for PBXNativeTarget "BBSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49556C551ED3E146006AB2A6 /* Debug */,
+				49556C561ED3E146006AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49556C351ED3E146006AB2A6 /* Project object */;
+}
