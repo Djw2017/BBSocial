@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BBSocial"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "BBSocial is an SDK for social"
 
   s.description  = <<-DESC
@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/Djw2017/BBSocial.git" }
-
-  #s.pod_target_xcconfig = {'ENABLE_STRICT_OBJC_MSGSEND' => 'NO'}
   
-  s.source_files  = "BBSocial/B*.{h,m}"
+  s.source_files  = "BBSocial/BBSocial.{h,m}", "BBSocial/BBSocialPlatformConfig.{h,m}", 
+                    "BBSocial/BBSocialCommon.{h,m}","BBSocial/BBSocialResponse.{h,m}"
 
   s.subspec 'BBLogin' do |login|
     login.source_files = 'BBSocial/BBLogin/*.{h,m}'
     login.public_header_files = 'BBSocial/BBLogin/*.h'
+    login.frameworks = 'UMSocialCore'
   end
 
   #s.subspec 'BBShare' do |share|
@@ -44,8 +44,10 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true 
   
-  #'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+  #'ENABLE_STRICT_OBJC_MSGSEND' => 'NO'
   
+  s.pod_target_xcconfig = {'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
+
   s.dependency 'UMengUShare/UI', '~> 6.4.3'
   s.dependency 'UMengUShare/Social/ReducedWeChat', '~> 6.4.3'
   s.dependency 'UMengUShare/Social/ReducedQQ', '~> 6.4.3'
