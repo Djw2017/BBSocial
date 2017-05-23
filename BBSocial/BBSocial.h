@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "BBShareContent.h"
 #import "BBSocialCommon.h"
 #import "BBSocialPlatformConfig.h"
 

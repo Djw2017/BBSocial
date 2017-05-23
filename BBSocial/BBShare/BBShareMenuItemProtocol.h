@@ -6,9 +6,6 @@
 //  Copyright © 2017年 Babybus. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
 #import "BBSocialPlatformConfig.h"
 
 @protocol BBShareMenuItemProtocol <NSObject>

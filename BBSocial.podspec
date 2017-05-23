@@ -3,8 +3,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "BBSocial"
-  s.version      = "1.0.4"
-  s.summary      = "BBShare is an SDK for sharing"
+  s.version      = "1.0.0"
+  s.summary      = "BBSocial is an SDK for social"
 
   s.description  = <<-DESC
                         BBSocial 是一个用于分享,第三方登录的SDK，提供外部接口,依赖友盟分享。
@@ -22,27 +22,28 @@ Pod::Spec.new do |s|
 
   #s.pod_target_xcconfig = {'ENABLE_STRICT_OBJC_MSGSEND' => 'NO'}
   
-  s.source_files  = "BBSocial/BBShare/B*.{h,m}"
+  s.source_files  = "BBSocial/B*.{h,m}"
 
   s.subspec 'BBLogin' do |login|
     login.source_files = 'BBSocial/BBLogin/*.{h,m}'
     login.public_header_files = 'BBSocial/BBLogin/*.h'
   end
 
-  s.subspec 'BBShare' do |share|
-    share.source_files = 'BBSocial/BBShare/*.{h,m}'
-    share.public_header_files = 'BBSocial/BBShare/*.h'
+  #s.subspec 'BBShare' do |share|
+  #  share.source_files = 'BBSocial/BBShare/*.{h,m}'
+  #  share.public_header_files = 'BBSocial/BBShare/*.h'
     
-    s.subspec 'BBShareUI' do |shareui|
-    shareui.source_files = 'BBSocial/BBShare/BBShareUI/*.{h,m}'
-    shareui.public_header_files = 'BBSocial/BBShareUI/BBShare/*.h'
-    shareui.frameworks = 'UShareUI'
-    end
+    #s.subspec 'BBShareUI' do |shareui|
+    #shareui.source_files = 'BBSocial/BBShare/BBShareUI/*.{h,m}'
+    #shareui.public_header_files = 'BBSocial/BBShareUI/BBShare/*.h'
+    #shareui.frameworks = 'UShareUI'
+    #end
 
-  end
+  #end
 
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true 
+  
   #'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
   
   s.dependency 'UMengUShare/UI', '~> 6.4.3'

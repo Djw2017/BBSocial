@@ -6,10 +6,10 @@
 //  Copyright © 2017年 Babybus. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 #import "BBSocial.h"
+#import "BBShareContent.h"
 
 @interface BBShare : NSObject
 
