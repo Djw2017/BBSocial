@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BBSocial"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "BBSocial is an SDK for social"
 
   s.description  = <<-DESC
