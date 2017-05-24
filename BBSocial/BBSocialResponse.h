@@ -58,6 +58,17 @@
 
 
 
+@interface BBSocialShareResponse : BBSocialResponse
+
+@property (nonatomic, copy) NSString  *message;
+
++ (BBSocialShareResponse *)shareResponseWithUMResponse:(id)response;
+
+@end
+
+
+
+
 @interface BBSocialUserInfoResponse : BBSocialResponse
 
 /**

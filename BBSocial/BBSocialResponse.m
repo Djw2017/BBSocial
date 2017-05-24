@@ -8,7 +8,31 @@
 
 #import "BBSocialResponse.h"
 
+#import <UMSocialCore/UMSocialCore.h>
+
 @implementation BBSocialResponse
+
+@end
+
+
+
+
+@implementation BBSocialShareResponse
+
++ (BBSocialShareResponse *)shareResponseWithUMResponse:(id)response {
+    
+    UMSocialShareResponse *resp = response;
+    BBSocialShareResponse *bbResponse =  [[BBSocialShareResponse alloc] init];
+    bbResponse.uid = resp.uid;
+    bbResponse.openid = resp.openid;
+    bbResponse.refreshToken = resp.refreshToken;
+    bbResponse.expiration = resp.expiration;
+    bbResponse.accessToken = resp.accessToken;
+    bbResponse.unionId = resp.unionId;
+    bbResponse.message = resp.message;
+    
+    return bbResponse;
+}
 
 @end
 

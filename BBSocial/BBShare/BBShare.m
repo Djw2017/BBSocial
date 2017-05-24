@@ -35,13 +35,16 @@
                 result(nil,error);
            }else{
                if ([data isKindOfClass:[UMSocialShareResponse class]]) {
-                   UMSocialShareResponse *resp = data;
-                   //分享结果消息
-                   if (!resp.message) {
-                       result(@"share success",error);
-                   }else {
-                       result(resp.message,error);
+
+                   BBSocialShareResponse *response = [BBSocialShareResponse shareResponseWithUMResponse:data];
+                   if (!response.message) {
+                       response.message = @"share sucess!";
                    }
+                   response.platformType = type;
+                   
+                   //分享结果消息
+                   result(response,error);
+
                }else{
                     result(data,error);
                }

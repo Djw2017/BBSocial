@@ -10,6 +10,7 @@
 
 #import "BBSocialCommon.h"
 #import "BBSocialPlatformConfig.h"
+#import "BBSocialResponse.h"
 
 @interface BBSocial : NSObject
 

@@ -39,9 +39,10 @@
        bbResponse.iconurl = resp.iconurl;
        bbResponse.unionGender = resp.unionGender;
        bbResponse.gender = resp.gender;
-                                                       
+          
+       bbResponse.platformType = platformType;
        bbResponse.originalResponse = resp.originalResponse;
-
+                                                       
        completion(bbResponse,error);
     }];
 }

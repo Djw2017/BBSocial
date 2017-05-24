@@ -44,6 +44,7 @@
     [shareView clickShareItem:^(BBSocialPlatformType shareType) {
         
         [shareView remove];
+        
         // 点击第一行分享平台按钮回调
         [BBShare shareContent:content type:shareType result:^(id data, NSError *error) {
             result(data,error);
