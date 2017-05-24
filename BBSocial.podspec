@@ -26,20 +26,18 @@ Pod::Spec.new do |s|
   s.subspec 'BBLogin' do |login|
     login.source_files = 'BBSocial/BBLogin/*.{h,m}'
     login.public_header_files = 'BBSocial/BBLogin/*.h'
-    login.frameworks = 'UMSocialCore'
   end
 
-  #s.subspec 'BBShare' do |share|
-  #  share.source_files = 'BBSocial/BBShare/*.{h,m}'
-  #  share.public_header_files = 'BBSocial/BBShare/*.h'
+  s.subspec 'BBShare' do |share|
+    share.source_files = 'BBSocial/BBShare/*.{h,m}'
+    share.public_header_files = 'BBSocial/BBShare/*.h'
     
-    #s.subspec 'BBShareUI' do |shareui|
-    #shareui.source_files = 'BBSocial/BBShare/BBShareUI/*.{h,m}'
-    #shareui.public_header_files = 'BBSocial/BBShareUI/BBShare/*.h'
-    #shareui.frameworks = 'UShareUI'
-    #end
+    share.subspec 'BBShareUI' do |shareui|
+    shareui.source_files = 'BBSocial/BBShare/BBShareUI/*.{h,m}'
+    shareui.public_header_files = 'BBSocial/BBShare/BBShareUI/*.h'
+    end
 
-  #end
+  end
 
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true 
